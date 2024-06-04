@@ -1,0 +1,39 @@
+:root {
+  /**
+   * Typography
+   */
+  --lgtm-font-size-h1: 2.5rem;
+  --lgtm-font-size-h2: 2rem;
+  --lgtm-font-size-h3: 1.75rem;
+  --lgtm-font-size-h4: 1.5rem;
+  --lgtm-font-size-h5: 1.25rem;
+  --lgtm-font-size-h6: 1rem;
+  --lgtm-font-size-p: 1rem;
+
+  /**
+   * Color
+   */
+  --lgtm-color-dark: hsl(240 10% 20%);
+  --lgtm-color-light: hsl(240 10% 90%);
+  --lgtm-color-primary: rebeccapurple;
+  --lgtm-color-danger: hsl(360 80% 40%);
+  --lgtm-color-success: hsl(127 71% 40%);
+  --lgtm-color-warning: hsl(45 100% 50%);
+
+  /**
+   * Spacing
+   */
+  --lgtm-spacing-2: 0.125rem;
+  --lgtm-spacing-4: 0.25rem;
+  --lgtm-spacing-8: 0.5rem;
+  --lgtm-spacing-12: 0.75rem;
+  --lgtm-spacing-16: 1rem;
+  --lgtm-spacing-20: 1.25rem;
+  --lgtm-spacing-24: 1.5rem;
+  --lgtm-spacing-28: 1.75rem;
+  --lgtm-spacing-32: 2rem;
+  --lgtm-spacing-40: 2.5rem;
+  --lgtm-spacing-48: 3rem;
+  --lgtm-spacing-64: 4rem;
+  --lgtm-spacing-80: 5rem;
+}

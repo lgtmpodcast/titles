@@ -1,0 +1,20 @@
+{
+  "name": "lgtm-titles",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "homepage": "https://github.com/lgtmpodcast/titles#readme",
+  "bugs": {
+    "url": "https://github.com/lgtmpodcast/titles/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgtmpodcast/titles.git"
+  },
+  "scripts": {
+    "start": "http-server"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
