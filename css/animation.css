@@ -1,29 +1,37 @@
-@keyframes hinge {
-  0% {
-    animation-timing-function: ease-in-out;
+@keyframes wobble {
+  0%, 100% {
+    transform: rotate(0deg);
   }
-
-  20%,
-  60% {
-    transform: rotate3d(0, 0, 1, 80deg);
-    animation-timing-function: ease-in-out;
+  25% {
+    transform: rotate(5deg);
   }
-
-  40%,
-  80% {
-    transform: rotate3d(0, 0, 1, 60deg);
-    animation-timing-function: ease-in-out;
-    opacity: 1;
+  50% {
+    transform: rotate(-5deg);
   }
-
-  to {
-    transform: translate3d(0, 700px, 0);
-    opacity: 0;
+  75% {
+    transform: rotate(5deg);
   }
 }
 
-.hinge {
-  animation-duration: 1s;
-  animation-name: hinge;
-  transform-origin: top left;
+.animation-wobble {
+  animation: wobble 2s infinite ease-in-out;
+}
+
+@keyframes invertwobble {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+}
+
+.animation-invertwobble {
+  animation: invertwobble 2s infinite ease-in-out;
 }
