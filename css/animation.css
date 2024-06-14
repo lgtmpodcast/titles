@@ -13,25 +13,80 @@
   }
 }
 
-.animation-wobble {
-  animation: wobble 2s infinite ease-in-out;
-}
-
-@keyframes invertwobble {
+@keyframes bounce {
   0%, 100% {
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(-5deg);
+    transform: translateY(0);
   }
   50% {
-    transform: rotate(5deg);
-  }
-  75% {
-    transform: rotate(-5deg);
+    transform: translateY(-10%);
   }
 }
 
-.animation-invertwobble {
-  animation: invertwobble 2s infinite ease-in-out;
+@keyframes punch {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+}
+
+/**
+ * Name
+ */
+
+.animation-wobble {
+  animation-name: wobble;
+}
+
+.animation-bounce {
+  animation-name: bounce;
+}
+
+.animation-punch {
+  animation-name: punch;
+}
+
+/**
+ * Iteration Count
+ */
+
+.animation-iteration-count-1 {
+  animation-iteration-count: 1;
+}
+
+.animation-iteration-count-infinite {
+  animation-iteration-count: infinite;
+}
+
+/**
+ * Direction
+ */
+
+.animation-direction-reverse {
+  animation-direction: reverse;
+}
+
+/**
+ * Duration
+ */
+
+.animation-duration-500 {
+  animation-duration: 500ms;
+}
+
+.animation-duration-1000 {
+  animation-duration: 1000ms;
+}
+
+.animation-duration-2000 {
+  animation-duration: 2000ms;
+}
+
+/**
+ * Delay
+ */
+
+.animation-delay-500 {
+  animation-delay: 500ms;
 }
