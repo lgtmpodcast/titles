@@ -10,10 +10,6 @@ body {
   background-color: var(--lgtm-color-primary);
   color: white;
   display: grid;
-  font-family: "Creepster", system-ui;
-  font-weight: 400;
-  font-size: inherit;
-  font-style: normal;
   height: 100%;
   place-content: center;
   text-align: center;
