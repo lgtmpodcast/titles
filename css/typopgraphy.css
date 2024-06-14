@@ -1,0 +1,13 @@
+h1 {
+  font-size: 40vh;
+  font-weight: 400;
+  text-shadow: 0.025em 0.025em 0 black, 0.0375em 0.0375em 0.5em rgba(0,0,0,0.25);
+  -webkit-text-stroke: 0.0125em black;
+}
+
+h2 {
+  font-size: 10vh;
+  font-weight: 400;
+  text-shadow: 0.05em 0.05em 0 black, 0.075em 0.075em 0 rgba(0,0,0,0.25);
+  -webkit-text-stroke: 0.025em black;
+}
