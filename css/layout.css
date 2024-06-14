@@ -22,9 +22,13 @@ body {
 
 .layout-cover,
 .layout-top-left,
+.layout-top-center,
 .layout-top-right,
+.layout-center-left,
 .layout-center,
+.layout-center-right,
 .layout-bottom-left,
+.layout-bottom-center,
 .layout-bottom-right {
   display: grid;
   place-content: center;
@@ -40,9 +44,19 @@ body {
   grid-row: 1 / 2;
 }
 
+.layout-top-center {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
 .layout-top-right {
   grid-column: 3 / 4;
   grid-row: 1 / 2;
+}
+
+.layout-center-left {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
 }
 
 .layout-center {
@@ -50,8 +64,18 @@ body {
   grid-row: 2 / 3;
 }
 
+.layout-center-right {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
 .layout-bottom-left {
   grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.layout-bottom-center {
+  grid-column: 2 / 3;
   grid-row: 3 / 4;
 }
 
