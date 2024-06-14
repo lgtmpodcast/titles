@@ -4,6 +4,10 @@
 
 body {
   background-color: var(--lgtm-color-primary);
+  background-image: url('../svg/background.svg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
   color: white;
 }
 
