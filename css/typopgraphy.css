@@ -6,7 +6,6 @@
 }
 
 nav {
-
   & ul {
     display: grid;
     gap: 0.25em;
@@ -24,13 +23,13 @@ nav {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+.text {
   font-weight: 400;
   letter-spacing: 0.025em;
   line-height: 0.9em;
 }
 
-h1 {
+.text-xl {
   font-size: 33vh;
   text-shadow: 
     0.025em 0.025em 0 black,
@@ -38,7 +37,7 @@ h1 {
   -webkit-text-stroke: 0.0125em black;
 }
 
-h2 {
+.text-l {
   font-size: 20vh;
   text-shadow: 
     0.0375em 0.0375em 0 black,
@@ -46,7 +45,15 @@ h2 {
   -webkit-text-stroke: 0.0175em black;
 }
 
-h3 {
+.text-m {
+  font-size: 15vh;
+  text-shadow: 
+    0.0375em 0.0375em 0 black,
+    0.05em 0.05em 0 rgba(0,0,0,0.125);
+  -webkit-text-stroke: 0.025em black;
+}
+
+.text-s {
   font-size: 10vh;
   text-shadow: 
     0.05em 0.05em 0 black,
